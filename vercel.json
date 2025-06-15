@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/database",
+      "destination": "/Akses/index.html"
+    },
+    {
+      "source": "/database/:path*",
+      "destination": "/Akses/:path*"
+    }
+  ]
+}
